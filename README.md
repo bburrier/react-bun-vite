@@ -2,9 +2,9 @@
 
 This is a [React](https://reactjs.org/) application built using [Bun](https://bun.sh/) and [Vite](https://vitejs.dev). 
 
-**React** is A JavaScript library for building user interfaces. \
-**Bun** is a fast all-in-one JavaScript runtime, package manager, and more. \
-**Vite** is a build tool that aims to provide a faster and leaner development experience for modern web projects
+\- **React** is a JavaScript library for building user interfaces. \
+\- **Bun** is a fast all-in-one JavaScript runtime, package manager, and more. \
+\- **Vite** is a build tool that aims to provide a faster and leaner development experience for modern web projects
 
 | | tool | usage in this project |
 |:---:|:---:|:---:|
@@ -46,4 +46,6 @@ Preview the production build locally with Vite `bun vite preview`. http://localh
 
 ### Production
 
-This application is hosted using GitHub Pages.
+This application is deployed to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) using a GitHub Actions [workflow](https://github.com/bburrier/react-bun-vite/blob/master/.github/workflows/cd.yml).
+
+**live**: https://bburrier.github.io/react-bun-vite/
